@@ -1,0 +1,66 @@
+﻿@model List<Voter>
+<div class="container">
+    <h1>Vote Results</h1>
+    <table id="resultsTable" border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Experience</th>
+                <th>Age</th>
+                <th>Notes</th>
+                <th>Salary</th>
+                <th>Level</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var voter in Model)
+            {
+                <tr>
+                    <td>@voter.Name</td>
+                    <td>@voter.Job</td>
+                    <td>@voter.YearOfExperience</td>
+                    <td>@voter.Age</td>
+                    <td>@voter.Notes</td>
+                    <td>@voter.Salaries</td>
+                    <td>@voter.Level</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="container">
+    <div>
+        <label for="jobSelect">Filter by Job:</label>
+        <select id="jobSelect">
+            <option value="">All</option>
+            @foreach (var job in Model.Select(v => v.Job).Distinct())
+            {
+                <option value="@job">@job</option>
+            }
+        </select>
+        <label for="levelSelect">Filter by Level:</label>
+        <select id="levelSelect">
+            <option value="">All</option>
+            <option value="Junior">Junior</option>
+            <option value="Mid">Mid</option>
+            <option value="Senior">Senior</option>
+        </select>
+    </div>
+    @* <h2>Average Salary: $<span id="averageSalary">0</span></h2> *@
+    <h2>Salary Distribution</h2>
+    <canvas id="salaryChart"></canvas>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.0.0"></script>
+
+
+   
+    <script src="~/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+}

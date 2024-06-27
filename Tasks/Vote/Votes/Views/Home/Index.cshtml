@@ -1,0 +1,73 @@
+﻿@model Votes.Models.Voter
+
+<div class="container mt-5">
+    <h1 class="mb-4">Vote for Programmer's Salary</h1>
+    <form id="voteForm" method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="Save" role="form">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" asp-for="Name">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="position">Position:</label>
+            <select asp-for="Job" class="form-control">
+                <optgroup label="Programming Jobs">
+                    <option>Back End Developer</option>
+                    <option>Front End Developer</option>
+                    <option>Full Stack Developer</option>
+                    <option>Mobile Developer</option>
+                    <option>Data Analysis</option>
+                    <option>Data Science</option>
+                    <option>AI</option>
+                    <option>DevOps</option>
+                </optgroup>
+            </select>
+            <span asp-validation-for="Job" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="level">Level of Experience:</label>
+            <select id="level" asp-for="Level" class="form-control">
+                <option value="Junior">Junior</option>
+                <option value="Mid">Mid</option>
+                <option value="Senior">Senior</option>
+            </select>
+            <span asp-validation-for="Level" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="experience">Years of Experience:</label>
+            <input type="number" class="form-control" id="experience" asp-for="YearOfExperience">
+            <span asp-validation-for="YearOfExperience" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" class="form-control" id="age" asp-for="Age">
+            <span asp-validation-for="Age" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="notes">Notes:</label>
+            <textarea id="notes" class="form-control" asp-for="Notes"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="salary">Salary:</label>
+            <input type="number" class="form-control" id="salary" asp-for="Salaries">
+            <span asp-validation-for="Salaries" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+
+
+
+
+
+@section Scripts{
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+}

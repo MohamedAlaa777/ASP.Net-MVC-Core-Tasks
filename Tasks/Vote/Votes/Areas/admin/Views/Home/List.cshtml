@@ -1,0 +1,60 @@
+﻿@model List<Voter>
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Striped Table</h4>
+            <div class="card-description">
+                <a href="/Admin/Home/Edit" class="btn btn-gradient-primary btn-fw">New</a>
+            </div>
+            <table id="order-listing" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Experience</th>
+                        <th>Age</th>
+                        <th>Notes</th>
+                        <th>Salary</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var voter in Model)
+                    {
+                        <tr>
+                            <td>@voter.Name</td>
+                            <td>@voter.Job</td>
+                            <td>@voter.YearOfExperience</td>
+                            <td>@voter.Age</td>
+                            <td>@voter.Notes</td>
+                            <td>@voter.Salaries</td>
+                            <td>@voter.Level</td>
+                            <td>
+                                <a style="height:max-content"
+                                   asp-controller="Home" asp-action="Edit" asp-route-Id="@voter.Id"
+                                   class="btn btn-gradient-info btn-fw" >Edit</a>
+                                <a asp-controller="Home" asp-action="Delete" asp-route-Id="@voter.Id"
+                                   class="btn btn-gradient-info btn-fw"
+                                   onclick="return confirm(" Are you sure");">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts
+    {
+    <!-- Plugin js for this page -->
+    <script src="~/Admin/vendors/datatables.net/jquery.dataTables.js"></script>
+    <script src="~/Admin/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- Custom js for this page -->
+    <script src="~/Admin/js/data-table.js"></script>
+    <!-- End custom js for this page -->
+}

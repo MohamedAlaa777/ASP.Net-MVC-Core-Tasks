@@ -1,0 +1,290 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\bl\\clsvotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:bl\\clsvotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\data\\votecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:data\\votecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\areas\\admin\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:areas\\admin\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\views\\home\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:views\\home\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\areas\\admin\\views\\home\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:areas\\admin\\views\\home\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\models\\voter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:models\\voter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\areas\\admin\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:areas\\admin\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\migrations\\20240624113823_votemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:migrations\\20240624113823_votemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|c:\\users\\dell\\documents\\asp.net mvc core\\tasks\\vote\\votes\\migrations\\20240625060149_votes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{223E9C47-3DC3-45BB-A8A8-629105FF91AD}|Votes.csproj|solutionrelative:migrations\\20240625060149_votes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAgwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T09:16:12.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Areas\\admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Areas\\admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Areas\\admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Areas\\admin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwCcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:45:15.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Views\\Home\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\List.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Views\\Home\\List.cshtml",
+              "RelativeToolTip": "Views\\Home\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T05:56:37.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\wwwroot\\js\\script.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\script.js",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\wwwroot\\js\\script.js",
+              "RelativeToolTip": "wwwroot\\js\\script.js",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAqwFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-24T12:43:16.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClsVotes.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\BL\\ClsVotes.cs",
+              "RelativeDocumentMoniker": "BL\\ClsVotes.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\BL\\ClsVotes.cs",
+              "RelativeToolTip": "BL\\ClsVotes.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowBMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T07:20:30.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VoteContext.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Data\\VoteContext.cs",
+              "RelativeDocumentMoniker": "Data\\VoteContext.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Data\\VoteContext.cs",
+              "RelativeToolTip": "Data\\VoteContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAQwBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T11:20:14.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Areas\\admin\\Views\\Home\\List.cshtml",
+              "RelativeDocumentMoniker": "Areas\\admin\\Views\\Home\\List.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Areas\\admin\\Views\\Home\\List.cshtml",
+              "RelativeToolTip": "Areas\\admin\\Views\\Home\\List.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAAAcAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T06:50:03.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Areas\\admin\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\admin\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Areas\\admin\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\admin\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAA4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T06:52:07.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T09:56:18.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Voter.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Models\\Voter.cs",
+              "RelativeDocumentMoniker": "Models\\Voter.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Models\\Voter.cs",
+              "RelativeToolTip": "Models\\Voter.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T10:01:22.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Areas\\admin\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\admin\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Areas\\admin\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\admin\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T06:45:55.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240625060149_votes.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Migrations\\20240625060149_votes.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240625060149_votes.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Migrations\\20240625060149_votes.cs",
+              "RelativeToolTip": "Migrations\\20240625060149_votes.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:01:49.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240624113823_VoteMigration.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Migrations\\20240624113823_VoteMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240624113823_VoteMigration.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Migrations\\20240624113823_VoteMigration.cs",
+              "RelativeToolTip": "Migrations\\20240624113823_VoteMigration.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T11:38:24.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:39:57.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T09:59:05.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\ASP.NET MVC Core\\Tasks\\Vote\\Votes\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T10:03:40.767Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

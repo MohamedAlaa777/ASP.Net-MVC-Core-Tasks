@@ -1,0 +1,77 @@
+﻿@model Voter
+
+<div class="row">
+              <div class="col-md-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Voter</h4>
+                    <p class="card-description"> Add new or edit </p>
+                    <form class="forms-sample"
+                    method="post" enctype="multipart/form-data"
+                    asp-controller="Home" asp-action="Save"
+                    role="form">
+
+                    @* Hidden Id Input *@
+                    <input asp-for="Id" type="hidden" />
+
+                      <div class="form-group">
+                        <label for="exampleInputUsername1"> Name</label>
+                        <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Name"
+                        asp-for="Name" maxlength="100">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Job</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Job"
+                        asp-for="Job" maxlength="80">
+                        <span asp-validation-for="Job" class="text-danger"></span>
+                      </div>
+                      
+                     
+                      <div class="form-group">
+                        <label for="exampleInputConfirmPassword1">Level</label>
+                        <input type="text" class="form-control" id="exampleInputConfirmPassword1" placeholder="Level"
+                        asp-for="Level" maxlength="100">
+                        <span asp-validation-for="Level" class="text-danger"></span>
+                      </div>
+                    <div class="form-group">
+                        <label for="exampleInputConfirmPassword1">Year Of Experience</label>
+                        <input type="number" class="form-control" id="exampleInputConfirmPassword1" placeholder="Year Of Experience"
+                               asp-for="YearOfExperience" maxlength="100">
+                        <span asp-validation-for="YearOfExperience" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputConfirmPassword1">Age</label>
+                        <input type="number" class="form-control" id="exampleInputConfirmPassword1" placeholder="Age"
+                               asp-for="Age" maxlength="100">
+                        <span asp-validation-for="Age" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputConfirmPassword1">Notes</label>
+                        <input type="text" class="form-control" id="exampleInputConfirmPassword1" placeholder="Notes"
+                               asp-for="Notes" maxlength="100">
+                        <span asp-validation-for="Notes" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputConfirmPassword1">Salary</label>
+                        <input type="number" class="form-control" id="exampleInputConfirmPassword1" placeholder="Salary"
+                               asp-for="Salaries" maxlength="100">
+                        <span asp-validation-for="Salaries" class="text-danger"></span>
+                    </div>
+                      <div class="form-check form-check-flat form-check-primary">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input"> Remember me <i class="input-helper"></i></label>
+                      </div>
+                      <button type="submit" class="btn btn-gradient-primary me-2">Submit</button>
+                      <button class="btn btn-light">Cancel</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+</div>
+
+@section Scripts
+{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+}
